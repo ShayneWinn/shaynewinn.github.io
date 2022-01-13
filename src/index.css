@@ -3,6 +3,27 @@ body {
     color: #cccccc;
 }
 
+.content-container {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform:  translate(-50%, 0);
+    width:  60%;
+    vertical-align: center;
+}
+
+.content-links{
+    color: inherit;
+    font-size: 30px;
+}
+.content-container a{
+    font-size: inherit;
+    color: #fc7ee3;
+    text-decoration: none;
+}
+
+/**
 .menubar {
     color: #fc7ee3;
     font-size: 2em;
@@ -29,19 +50,4 @@ body {
     text-decoration: none;
     font-size: 30px;
 }
-
-
-.content-container {
-    font-size: 20px;
-    margin: auto;
-    width:  60%;
-}
-
-.content-links{
-    color: inherit;
-    font-size: 30px;
-}
-.content-links a{
-    color: #fc7ee3;
-    text-decoration: none;
-}
+*/
